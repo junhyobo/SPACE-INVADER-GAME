@@ -1,17 +1,32 @@
-# gd3
+# 🚀 Space Invader Game (Flutter OOP Project)
 
-A new Flutter project.
+A 2D space-shooter game built with **Flutter** for my OOP coursework.  
+Players control a spaceship to fight waves of aliens and bosses using skills, items, and upgrades.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎮 Features
+- Multi-screen system: Splash → Menu → Explore → Battle  
+- Turn-based combat and exploration mechanics  
+- OOP design with classes for Hero, Enemy, Item, Skill, and Audio  
+- Pixel-art graphics, sound effects, and background music  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧩 Folder Structure
+lib/
+├─ actors/ # Hero, Enemy, Bullet, Boss, etc.
+├─ systems/ # Audio, Storage, Game services
+├─ screens/ # SplashScreen, MenuScreen, GameScreen
+├─ util/ # GameTuning, constants, helpers
+assets/
+├─ images/
+├─ audio/
+pubspec.yaml # Asset declarations
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# space_invader_web
+---
+
+## ▶️ How to Run
+```bash
+flutter pub get
+flutter run
