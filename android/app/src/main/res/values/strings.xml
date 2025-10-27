@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Có thể dùng SPACE INVADER bình thường trước cho chắc -->
+    <string name="app_name">SPACE INVADER</string>
+    <!-- Nếu muốn chống cắt ở khoảng trắng, sau khi build ổn hẵng thử:
+    <string name="app_name">SPACE&#160;INVADER</string>
+    -->
+</resources>
